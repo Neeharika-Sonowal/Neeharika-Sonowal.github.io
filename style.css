@@ -207,7 +207,7 @@ section .title::after{
 }
 .pfimg{
     display: flex;
-    width: 250px;
+    width: 245px;
     height: 350px;
 }
 .items{
@@ -501,7 +501,6 @@ section .title::after{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 20px;
   }
   .contact .row{
     display: flex;

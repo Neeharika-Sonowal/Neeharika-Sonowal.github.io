@@ -9,10 +9,10 @@
     text-decoration: none;
 }
 :root{
-    --color-1:#94F3E4;
-    --color-2:#37AA9C;
-    --color-3:#333F44;
-    --color-4:#1A1A1B;
+    --color-1:#F4EEFF;
+    --color-2:#DCD6F7;
+    --color-3:#A6B1E1;
+    --color-4:#424874;
     --font-familee:'Open Sans', sans-serif;
 }
 html{
@@ -570,7 +570,7 @@ form{
   }
 label{
   font-size: large;
-  color: var(--color-4);
+  color: var(--color-2);
 }
 input[type=text], input[type=email],select, textarea {
     width: 100%;
@@ -583,14 +583,14 @@ input[type=text], input[type=email],select, textarea {
   
   input[type=submit] {
     background-color: var(--color-2);
-    color: white;
+    color: var(--color-4);
     padding: 12px 20px;
     border: none;
     cursor: pointer;
   }
   
   input[type=submit]:hover {
-    background-color: var(--color-2);
+    background-color: var(--color-3);
   } 
 
   @media screen and (max-width: 600px) {
